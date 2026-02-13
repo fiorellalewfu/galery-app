@@ -1,0 +1,769 @@
+[
+    {
+        "id": "cerce-nacarat",
+        "artiste": "Marcelle Ferron",
+        "titre": "Cerce Nacarat",
+        "annee": "1948",
+        "periode": "1940s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "automatisme",
+            "huile",
+            "early"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "automatisme",
+            "huile",
+            "débuts",
+            "toile",
+            "marouflage",
+            "Montréal"
+        ],
+        "palette": [
+            "#2b2b2b",
+            "#f2f2f2",
+            "#d24b3a"
+        ],
+        "image": "images/gallery/cerce-nacarat.jpeg",
+        "contexte": "À la fin des années 1940, Ferron affirme une abstraction en formation au Québec. Ici, peinture réalisée en Huile sur toile marouflée sur contreplaqué (lieu de production : Montréal (Québec), Canada). À observer : huile, débuts, toile.",
+        "materiaux": "Huile sur toile marouflée sur contreplaqué",
+        "lieu": "Montréal (Québec), Canada",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/cerce-nacarat/"
+    },
+    {
+        "id": "le-poete-enchante",
+        "artiste": "Marcelle Ferron",
+        "titre": "Le Poète enchanté",
+        "annee": "1949",
+        "periode": "1940s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "automatisme",
+            "huile",
+            "early"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "automatisme",
+            "huile",
+            "débuts",
+            "toile",
+            "marouflage",
+            "Montréal"
+        ],
+        "palette": [
+            "#202020",
+            "#f0f0f0",
+            "#b53b2f"
+        ],
+        "image": "images/gallery/le-poete-enchante.jpeg",
+        "contexte": "À la fin des années 1940, Ferron affirme une abstraction en formation au Québec. Ici, peinture réalisée en Huile sur toile marouflée sur carton (lieu de production : Montréal (Québec), Canada). À observer : huile, débuts, toile.",
+        "materiaux": "Huile sur toile marouflée sur carton",
+        "lieu": "Montréal (Québec), Canada",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/le-poete-enchante/"
+    },
+    {
+        "id": "composition-en-bleu",
+        "artiste": "Marcelle Ferron",
+        "titre": "Composition en bleu",
+        "annee": "1950",
+        "periode": "1950s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "huile",
+            "bleu",
+            "automatisme"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "huile",
+            "bleu",
+            "automatisme",
+            "geste",
+            "rythme",
+            "Montréal"
+        ],
+        "palette": [
+            "#0d2b45",
+            "#e9eef5",
+            "#c14953"
+        ],
+        "image": "images/gallery/composition-en-bleu.jpeg",
+        "contexte": "Dans les années 1950, son abstraction gestuelle s'inscrit dans l'élan automatiste. Ici, peinture réalisée en Huile sur support rigide (lieu de production : Montréal (Québec), Canada). À observer : huile, bleu, geste.",
+        "materiaux": "Huile sur support rigide",
+        "lieu": "Montréal (Québec), Canada",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/composition-en-bleu/"
+    },
+    {
+        "id": "composition-no-17",
+        "artiste": "Marcelle Ferron",
+        "titre": "Composition no 17",
+        "annee": "1955",
+        "periode": "1950s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "huile",
+            "automatisme"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "huile",
+            "automatisme",
+            "toile",
+            "geste",
+            "rythme"
+        ],
+        "palette": [
+            "#1f1f1f",
+            "#f6f6f6",
+            "#b34a3c"
+        ],
+        "image": "images/gallery/composition-no-17.jpeg",
+        "contexte": "Dans les années 1950, son abstraction gestuelle s'inscrit dans l'élan automatiste. Ici, peinture réalisée en Huile sur toile. À observer : huile, toile, geste.",
+        "materiaux": "Huile sur toile",
+        "lieu": "",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/composition-no-17/"
+    },
+    {
+        "id": "congo",
+        "artiste": "Marcelle Ferron",
+        "titre": "Congo",
+        "annee": "1962",
+        "periode": "1960s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "huile",
+            "paris",
+            "grands-contrastes"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "huile",
+            "Paris",
+            "contraste",
+            "toile",
+            "structure",
+            "matière"
+        ],
+        "palette": [
+            "#1b1b1b",
+            "#f6f1e7",
+            "#c9473a"
+        ],
+        "image": "images/gallery/congo.jpeg",
+        "contexte": "Au début des années 1960, Ferron explore intensément supports et matières. Ici, peinture réalisée en Huile sur toile (lieu de production : Paris, France). À observer : huile, paris, contraste.",
+        "materiaux": "Huile sur toile",
+        "lieu": "Paris, France",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/congo/"
+    },
+    {
+        "id": "les-grandes-formes-qui-dansent-champ-de-mars-1968",
+        "artiste": "Marcelle Ferron",
+        "titre": "Les grandes formes qui dansent (Champ-de-Mars, Montréal)",
+        "annee": "1968",
+        "periode": "1960s",
+        "type": "Vitrail (art public)",
+        "tags": [
+            "vitrail",
+            "art-public",
+            "lumiere",
+            "montreal"
+        ],
+        "mots_cles": [
+            "plomb",
+            "verre",
+            "lumière",
+            "métro",
+            "Champ-de-Mars"
+        ],
+        "materiaux": [
+            "verre",
+            "plomb"
+        ],
+        "lieu": "Station Champ-de-Mars (métro de Montréal)",
+        "palette": [
+            "#5F388F",
+            "#6249AC",
+            "#FEC842"
+        ],
+        "image": "images/gallery/les-grandes-formes-qui-dansent-champ-de-mars-1968.jpeg",
+        "source": "Wikimedia Commons (photo)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Les_grandes_formes_qui_dansent.jpg",
+        "resume": "Un vitrail, c'est comme une mosaïque en verre coloré : la lumière traverse et fait briller les couleurs !"
+    },
+    {
+        "id": "monument-permanent-holocauste-1970-concordia",
+        "artiste": "Marcelle Ferron",
+        "titre": "Monument permanent à la mémoire des six millions de victimes juives de l'Holocauste (détail)",
+        "annee": "1970",
+        "periode": "1970s-80s",
+        "type": "Vitrail (art public)",
+        "resume": "Regarde les formes en verre : on dirait des pièces assemblées comme un puzzle. Imagine comment les couleurs changent quand le soleil passe !",
+        "tags": [
+            "vitrail",
+            "art-public",
+            "universite",
+            "concordia",
+            "memoire",
+            "lumiere",
+            "montreal"
+        ],
+        "mots_cles": [
+            "verre",
+            "plomb",
+            "lumière",
+            "Concordia",
+            "Samuel-Bronfman",
+            "Holocauste"
+        ],
+        "materiaux": [
+            "verre",
+            "plomb"
+        ],
+        "lieu": "Maison Samuel-Bronfman (Université Concordia, Montréal)",
+        "palette": [
+            "#5F388F",
+            "#ED575A",
+            "#FEC842"
+        ],
+        "image": "images/gallery/monument-permanent-holocauste-1970-concordia.jpeg",
+        "source": "Université Concordia (article)",
+        "source_url": "https://www.concordia.ca/fr/actualites/nouvelles/2024/11/21/l-oeuvre-de-marcelle-ferron-conservee-a-l-universit-e-concordia-sera-bientot-exposee-au-Musee-de-l-holocauste-montreal.html"
+    },
+    {
+        "id": "untitled-1972-mmfa",
+        "artiste": "Marcelle Ferron",
+        "titre": "Untitled (vitrail), Musée des beaux-arts de Montréal (MMFA)",
+        "annee": "1972",
+        "periode": "1970s-80s",
+        "type": "Vitrail",
+        "tags": [
+            "vitrail",
+            "mmfa",
+            "lumiere"
+        ],
+        "mots_cles": [
+            "plomb",
+            "verre",
+            "lumière",
+            "musée"
+        ],
+        "materiaux": [
+            "verre",
+            "plomb"
+        ],
+        "lieu": "Musée des beaux-arts de Montréal (MMFA)",
+        "palette": [
+            "#5F388F",
+            "#6249AC",
+            "#FEC842"
+        ],
+        "image": "images/gallery/untitled-1972-mmfa.jpeg",
+        "source": "Wikimedia Commons (photo)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Marcelle-ferron-untitled.jpg"
+    },
+    {
+        "id": "sans-titre-1979-palais-de-justice-granby",
+        "artiste": "Marcelle Ferron",
+        "titre": "Sans titre (vitrail), Palais de justice de Granby",
+        "annee": "1979",
+        "periode": "1970s-80s",
+        "type": "Vitrail (art public)",
+        "tags": [
+            "vitrail",
+            "art-public",
+            "granby",
+            "lumiere"
+        ],
+        "mots_cles": [
+            "plomb",
+            "verre",
+            "lumière",
+            "architecture"
+        ],
+        "materiaux": [
+            "verre",
+            "plomb"
+        ],
+        "lieu": "Palais de justice de Granby",
+        "palette": [
+            "#ED575A",
+            "#FEC842",
+            "#6249AC"
+        ],
+        "image": "images/gallery/sans-titre-1979-palais-de-justice-granby.jpeg",
+        "source": "Wikimedia Commons (photo)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Marcelle_Ferron,_-Sans_titre-,_1979_(6932256174).jpg"
+    },
+    {
+        "id": "verriere-et-sculpture-1979-station-vendome",
+        "artiste": "Marcelle Ferron",
+        "titre": "Verrière et sculpture, station Vendôme (métro de Montréal)",
+        "annee": "1979",
+        "periode": "1970s-80s",
+        "type": "Vitrail (art public)",
+        "resume": "Ici, les couleurs du vitrail se reflètent partout : c'est comme si la lumière faisait un arc-en-ciel sur les murs !",
+        "tags": [
+            "vitrail",
+            "art-public",
+            "montreal",
+            "vendome",
+            "lumiere"
+        ],
+        "mots_cles": [
+            "plomb",
+            "verre",
+            "lumière",
+            "métro",
+            "Vendôme"
+        ],
+        "materiaux": [
+            "verre",
+            "plomb"
+        ],
+        "lieu": "Station Vendôme (métro de Montréal)",
+        "palette": [
+            "#5F388F",
+            "#6249AC",
+            "#FEC842"
+        ],
+        "image": "images/gallery/verriere-et-sculpture-1979-station-vendome.jpeg",
+        "source": "Wikimedia Commons (photo)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Marcelle_Ferron,_Verri%C3%A8re_et_sculpture,_1979,_verre_et_acier_inoxydable,_station_Vend%C3%B4me,_m%C3%A9tro_de_Montr%C3%A9al_(12501634003).jpg"
+    },
+    {
+        "id": "vitrail-1966-commons",
+        "artiste": "Marcelle Ferron",
+        "titre": "Vitrail (photo Wikimedia Commons)",
+        "annee": "1966",
+        "periode": "1960s",
+        "type": "Vitrail",
+        "tags": [
+            "vitrail",
+            "lumiere"
+        ],
+        "mots_cles": [
+            "plomb",
+            "verre",
+            "lumière"
+        ],
+        "materiaux": [
+            "verre",
+            "plomb"
+        ],
+        "lieu": "",
+        "palette": [
+            "#5F388F",
+            "#6249AC",
+            "#FEC842"
+        ],
+        "image": "images/gallery/vitrail-1966-commons.jpeg",
+        "source": "Wikimedia Commons (photo)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Marcelle_Ferron,_Vitrail,_1966_(6908862268).jpg"
+    },
+    {
+        "id": "sans-titre-02-50",
+        "artiste": "Marcelle Ferron",
+        "titre": "Sans titre",
+        "annee": "1947",
+        "periode": "1940s",
+        "type": "Oeuvre",
+        "tags": null,
+        "mots_cles": null,
+        "palette": [
+            "#1b1b1b",
+            "#f0f0f0",
+            "#6249AC"
+        ],
+        "image": "images/gallery/sans-titre-02-50.jpeg",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/sans-titre-02-50/"
+    },
+    {
+        "id": "le-bateau-1997-ecole-au-point-du-jour",
+        "artiste": "Marcelle Ferron",
+        "titre": "Le bateau",
+        "annee": "1997",
+        "periode": "1970s-80s",
+        "type": "Vitrail (art public)",
+        "resume": "Trois verrières peintes : cherche les formes qui te font penser à un bateau, à l'eau ou à des voiles !",
+        "tags": [
+            "vitrail",
+            "art-public",
+            "ecole",
+            "enfants",
+            "lumiere",
+            "assomption"
+        ],
+        "mots_cles": [
+            "verre",
+            "verrière",
+            "école",
+            "L'Assomption",
+            "bateau"
+        ],
+        "materiaux": [
+            "Trois verrières peintes",
+            "verre"
+        ],
+        "lieu": "école primaire Au Point-du-Jour (L'Assomption)",
+        "palette": [
+            "#6249AC",
+            "#ED575A",
+            "#FEC842"
+        ],
+        "image": "images/gallery/le-bateau-1997-ecole-au-point-du-jour.jpeg",
+        "source": "MRC de L'Assomption (fiche)",
+        "source_url": "https://www.mrclassomption.qc.ca/oeuvres/le-bateau"
+    },
+    {
+        "id": "les-fees-se-drapent",
+        "artiste": "Marcelle Ferron",
+        "titre": "Les Fées se drapent",
+        "annee": "1978",
+        "periode": "1970s-80s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "huile",
+            "metallic",
+            "grand-geste"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "huile",
+            "métallique",
+            "grand geste",
+            "toile",
+            "métal",
+            "peinture métallique"
+        ],
+        "palette": [
+            "#1a1a1a",
+            "#f5f5f5",
+            "#b84d3a"
+        ],
+        "image": "images/gallery/les-fees-se-drapent.jpeg",
+        "contexte": "Dans les années 1970-80, son langage plastique gagne en ampleur et en assurance. Ici, peinture réalisée en Huile et peinture métallique sur toile. À observer : huile, métallique, grand geste.",
+        "materiaux": "Huile et peinture métallique sur toile",
+        "lieu": "",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/les-fees-se-drapent/"
+    },
+    {
+        "id": "le-champ-russe",
+        "artiste": "Marcelle Ferron",
+        "titre": "Le Champ russe",
+        "annee": "1947-1948",
+        "periode": "1940s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "automatisme",
+            "huile",
+            "early"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "automatisme",
+            "huile",
+            "débuts",
+            "Montréal"
+        ],
+        "palette": [
+            "#1b1b1b",
+            "#e8e8e8",
+            "#c33a2c"
+        ],
+        "image": "images/gallery/le-champ-russe.jpeg",
+        "contexte": "À la fin des années 1940, Ferron affirme une abstraction en formation au Québec. Ici, peinture réalisée en Huile sur support rigide (lieu de production : Montréal (Québec), Canada). À observer : huile, débuts.",
+        "materiaux": "Huile sur support rigide",
+        "lieu": "Montréal (Québec), Canada",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/le-champ-russe/"
+    },
+    {
+        "id": "le-bolide",
+        "artiste": "Marcelle Ferron",
+        "titre": "Le Bolide",
+        "annee": "vers 1964",
+        "periode": "1960s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "huile",
+            "metallic",
+            "paris"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "huile",
+            "métallique",
+            "Paris",
+            "toile",
+            "métal",
+            "peinture métallique"
+        ],
+        "palette": [
+            "#1a1a1a",
+            "#f4f4f4",
+            "#d14a3a"
+        ],
+        "image": "images/gallery/le-bolide.jpeg",
+        "contexte": "Au début des années 1960, Ferron explore intensément supports et matières. Ici, peinture réalisée en Huile et peinture métallique sur toile (lieu de production : Paris, France). À observer : huile, métallique, paris.",
+        "materiaux": "Huile et peinture métallique sur toile",
+        "lieu": "Paris, France",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/le-bolide/"
+    },
+    {
+        "id": "hommage-a-la-musique",
+        "artiste": "Marcelle Ferron",
+        "titre": "Hommage à la musique",
+        "annee": "1969",
+        "periode": "1960s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "verre-antique",
+            "plastique",
+            "metal",
+            "lumiere"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "verre antique",
+            "plastique",
+            "métal",
+            "lumière",
+            "verre"
+        ],
+        "palette": [
+            "#1b1b1b",
+            "#f0f0f0",
+            "#c84a3a"
+        ],
+        "image": "images/gallery/hommage-a-la-musique.jpeg",
+        "contexte": "Au début des années 1960, Ferron explore intensément supports et matières. Ici, peinture réalisée en Verre antique, plastique et métal. À observer : verre antique, plastique, métal.",
+        "materiaux": "Verre antique, plastique et métal",
+        "lieu": "",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/hommage-a-la-musique/"
+    },
+    {
+        "id": "l-odalisque",
+        "artiste": "Marcelle Ferron",
+        "titre": "L’Odalisque",
+        "annee": "1983",
+        "periode": "1970s-80s",
+        "type": "Peinture",
+        "tags": [
+            "abstraction",
+            "huile",
+            "metallic",
+            "grand-format"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "huile",
+            "métallique",
+            "grand format",
+            "toile",
+            "métal",
+            "peinture métallique"
+        ],
+        "palette": [
+            "#202020",
+            "#f2f2f2",
+            "#2b6a8a"
+        ],
+        "image": "images/gallery/l-odalisque.jpeg",
+        "contexte": "Dans les années 1970-80, son langage plastique gagne en ampleur et en assurance. Ici, peinture réalisée en Huile et peinture métallique sur toile. À observer : huile, métallique, grand format.",
+        "materiaux": "Huile et peinture métallique sur toile",
+        "lieu": "",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/l-odalisque/"
+    },
+    {
+        "id": "etude-no-1",
+        "artiste": "Marcelle Ferron",
+        "titre": "Étude no 1",
+        "annee": "1961",
+        "periode": "1960s",
+        "type": "Dessin",
+        "tags": [
+            "dessin",
+            "gouache",
+            "sur papier",
+            "abstraction"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "dessin",
+            "gouache",
+            "papier",
+            "métal",
+            "peinture métallique",
+            "structure"
+        ],
+        "palette": [
+            "#1e1e1e",
+            "#f5f5f5",
+            "#9b6b2f"
+        ],
+        "image": "images/gallery/etude-no-1.jpeg",
+        "contexte": "Au début des années 1960, Ferron explore intensément supports et matières. Ici, dessin réalisé en Gouache et peinture métallique sur papier (lieu de production : Paris, France). À observer : dessin, gouache, papier.",
+        "materiaux": "Gouache et peinture métallique sur papier",
+        "lieu": "Paris, France",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/etude-no-1/"
+    },
+    {
+        "id": "sans-titre-71-86",
+        "artiste": "Marcelle Ferron",
+        "titre": "Sans titre",
+        "annee": "1962",
+        "periode": "1960s",
+        "type": "Dessin",
+        "tags": [
+            "dessin",
+            "encre",
+            "sur papier",
+            "abstraction"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "dessin",
+            "encre",
+            "papier",
+            "métal",
+            "peinture métallique",
+            "structure"
+        ],
+        "palette": [
+            "#1a1a1a",
+            "#ededed",
+            "#7a4e2a"
+        ],
+        "image": "images/gallery/sans-titre-71-86.jpeg",
+        "contexte": "Au début des années 1960, Ferron explore intensément supports et matières. Ici, dessin réalisé en Peinture métallique et encre sur papier (lieu de production : Paris, France). À observer : dessin, encre, papier.",
+        "materiaux": "Peinture métallique et encre sur papier",
+        "lieu": "Paris, France",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-86/"
+    },
+    {
+        "id": "a-la-peinture-argentee",
+        "artiste": "Marcelle Ferron",
+        "titre": "À la peinture argentée",
+        "annee": "1963",
+        "periode": "1960s",
+        "type": "Dessin",
+        "tags": [
+            "dessin",
+            "gouache",
+            "sur papier",
+            "metallic"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "dessin",
+            "gouache",
+            "papier",
+            "métallique",
+            "métal",
+            "peinture métallique"
+        ],
+        "palette": [
+            "#2b2b2b",
+            "#f1f1f1",
+            "#8f8f8f"
+        ],
+        "image": "images/gallery/a-la-peinture-argentee.jpeg",
+        "contexte": "Au début des années 1960, Ferron explore intensément supports et matières. Ici, dessin réalisé en Gouache, peinture métallique, peinture au latex et vernis sur papier (lieu de production : Paris, France). À observer : dessin, gouache, papier.",
+        "materiaux": "Gouache, peinture métallique, peinture au latex et vernis sur papier",
+        "lieu": "Paris, France",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/a-la-peinture-argentee/"
+    },
+    {
+        "id": "sans-titre-92-625",
+        "artiste": "Marcelle Ferron",
+        "titre": "Sans titre",
+        "annee": "1963",
+        "periode": "1960s",
+        "type": "Dessin",
+        "tags": [
+            "dessin",
+            "gouache",
+            "sur papier",
+            "abstraction"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "dessin",
+            "gouache",
+            "papier",
+            "métal",
+            "peinture métallique",
+            "structure"
+        ],
+        "palette": [
+            "#1e1e1e",
+            "#f4f4f4",
+            "#a85a2a"
+        ],
+        "image": "images/gallery/sans-titre-92-625.jpeg",
+        "contexte": "Au début des années 1960, Ferron explore intensément supports et matières. Ici, dessin réalisé en Gouache, peinture métallique, peinture au latex et vernis sur papier. À observer : dessin, gouache, papier.",
+        "materiaux": "Gouache, peinture métallique, peinture au latex et vernis sur papier",
+        "lieu": "",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/sans-titre-92-625/"
+    },
+    {
+        "id": "sans-titre-65-109",
+        "artiste": "Marcelle Ferron",
+        "titre": "Sans titre",
+        "annee": "1964",
+        "periode": "1960s",
+        "type": "Dessin",
+        "tags": [
+            "dessin",
+            "gouache",
+            "encre",
+            "sur papier",
+            "paris"
+        ],
+        "mots_cles": [
+            "abstraction",
+            "dessin",
+            "gouache",
+            "encre",
+            "papier",
+            "Paris",
+            "toile"
+        ],
+        "palette": [
+            "#222222",
+            "#f0f0f0",
+            "#2f6f7e"
+        ],
+        "image": "images/gallery/sans-titre-65-109.jpeg",
+        "contexte": "Au début des années 1960, Ferron explore intensément supports et matières. Ici, dessin réalisé en Gouache et encre sur papier marouflé sur toile (lieu de production : Paris, France). À observer : dessin, gouache, encre.",
+        "materiaux": "Gouache et encre sur papier marouflé sur toile",
+        "lieu": "Paris, France",
+        "source": "MACrépertoire (MACM)",
+        "source_url": "https://macrepertoire.macm.org/oeuvre/sans-titre-65-109/"
+    }
+]

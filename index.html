@@ -1,0 +1,194 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mur de lumiÃ¨re</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@400..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body class="theme">
+  <div class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-vignette" aria-hidden="true"></div>
+
+    <header class="marcelle-header">
+      <div class="mh-left">
+        <a
+          class="mh-back"
+          href="https://marcelle-app.vercel.app/"
+          aria-label="Accueil"
+          title="Accueil"
+        >
+          <span class="mh-back-label" data-i18n="headerBack">Accueil</span>
+        </a>
+      </div>
+
+      <div class="mh-lang" role="group" aria-label="Langue" data-i18n-attr="aria-label:langGroup">
+        <button class="mh-lang-btn is-active" data-lang="fr" type="button" aria-pressed="true">FR-CA</button>
+        <button class="mh-lang-btn" data-lang="en" type="button" aria-pressed="false">EN</button>
+      </div>
+    </header>
+
+    <header class="top glass hero-title">
+      <h1 data-i18n="heroTitle">Marcelle Ferron â€” Mur de lumiÃ¨re</h1>
+      <p class="subtitle" data-i18n="heroSubtitle">
+        Clique une pÃ©riode, puis un fragment. Le guide commente lâ€™Å“uvre avec le contexte (Automatistes â†’ vitrail â†’ art public).
+      </p>
+    </header>
+
+    <!-- PÃ©riodes (timeline cachÃ©e dans un menu dÃ©roulant) -->
+    <details class="period-menu">
+      <summary class="period-menu-summary glass" data-i18n="periodMenuToggle">PÃ©riodes</summary>
+
+      <nav class="timeline glass" aria-label="Ligne de temps" data-i18n-attr="aria-label:timelineAria">
+        <button class="station active" data-periode="toutes" aria-pressed="true">
+          <span class="dot"></span>
+          <span class="label" data-i18n="timelineAll">Toutes</span>
+        </button>
+
+        <div class="rail" aria-hidden="true"></div>
+
+        <button class="station" data-periode="1940s" aria-pressed="false">
+          <span class="dot"></span>
+          <span class="label" data-i18n="timeline1940s">1940s Â· DÃ©buts</span>
+        </button>
+
+        <button class="station" data-periode="1950s" aria-pressed="false">
+          <span class="dot"></span>
+          <span class="label" data-i18n="timeline1950s">1950s Â· Automatistes</span>
+        </button>
+
+        <button class="station" data-periode="1960s" aria-pressed="false">
+          <span class="dot"></span>
+          <span class="label" data-i18n="timeline1960s">1960s Â· Paris & transition</span>
+        </button>
+
+        <button class="station" data-periode="1970s-80s" aria-pressed="false">
+          <span class="dot"></span>
+          <span class="label" data-i18n="timeline1970s">1970â€“80s Â· MaturitÃ©</span>
+        </button>
+      </nav>
+
+      <!-- Carte de contexte (narration de la timeline) -->
+      <section class="period-card glass" aria-label="Contexte de la pÃ©riode" data-i18n-attr="aria-label:periodCardAria">
+        <h2 class="period-title" id="periodTitle">Toutes les pÃ©riodes</h2>
+        <p class="period-text" id="periodText">
+          Parcours global : des dÃ©buts abstraits (annÃ©es 1940) au geste automatiste (annÃ©es 1950), puis aux recherches et structures
+          (annÃ©es 1960) et Ã  la maturitÃ© (annÃ©es 1970â€“80).
+        </p>
+      </section>
+    </details>
+
+    <main class="wrap">
+      <!-- Galerie vitrail -->
+      <section class="vitrail glass" aria-label="Galerie vitrail" data-i18n-attr="aria-label:vitrailAria">
+        <div class="mosaic" id="mosaic">
+          <div class="spot" aria-hidden="true"></div>
+          <div class="mosaic-hero hero-overlay" aria-hidden="true">
+            <p class="eyebrow" data-i18n="mosaicEyebrow">galerie immersive</p>
+            <h2 data-i18n="mosaicTitle">Choisis un fragment pour explorer l'Å“uvre lumineuse de Marcelle Ferron</h2>
+            <p class="hero-copy" data-i18n="mosaicCopy">
+              Chaque morceau de lumiÃ¨re est une porte vers une Å“uvre : clique et laisse le guide raconter les gestes, la
+              couleur et le contexte Automatistes â†’ vitrail â†’ art public.
+            </p>
+            <p class="hero-hint" data-i18n="mosaicHint">Survole un fragment, puis clique pour rÃ©vÃ©ler lâ€™histoire.</p>
+          </div>
+          <div class="mosaic-pieces" id="mosaicPieces" aria-live="polite"></div>
+        </div>
+
+        <div class="legend">
+          <span class="pill" id="legendPeriod">PÃ©riode : Toutes</span>
+          <span class="pill" id="legendCount">Å’uvres : â€¦</span>
+        </div>
+
+        <div class="pager" aria-label="Pagination des Å“uvres" data-i18n-attr="aria-label:pagerAria">
+          <button class="pager-btn" id="prevPage" type="button" disabled data-i18n="pagerPrev">â—€ PrÃ©cÃ©dent</button>
+          <span class="pager-info" id="pageInfo">Page 1</span>
+          <button class="pager-btn" id="nextPage" type="button" disabled data-i18n="pagerNext">Suivant â–¶</button>
+        </div>
+      </section>
+
+      <div class="side-column">
+      <aside class="welcome-card glass" aria-label="Bienvenue">
+        <div class="welcome-portrait-wrap" aria-hidden="true">
+          <span class="welcome-spark welcome-spark-1"></span>
+          <span class="welcome-spark welcome-spark-2"></span>
+          <span class="welcome-spark welcome-spark-3"></span>
+          <span class="welcome-spark welcome-spark-4"></span>
+          <img
+            class="welcome-portrait"
+            src="https://raw.githubusercontent.com/fiorellalewfu/Marcelle-app/main/public/images/lieux/marcelleferron22.png"
+            alt="Portrait de Marcelle Ferron"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+        <div class="welcome-copy">
+          <h3 class="welcome-title" data-i18n="welcomeTitle">Bienvenue dans l’univers de Marcelle Ferron ✨</h3>
+          <p class="welcome-text" data-i18n="welcomeBody">
+            Voici Marcelle Ferron 👩‍🎨
+            C’est elle qui a imaginé ce monde de peintures, vitraux et lumières. Prêt·e à explorer ?
+          </p>
+        </div>
+      </aside>
+
+      <!-- Panneau chatbot -->
+      <aside class="panel glass" aria-label="Panneau guide" data-i18n-attr="aria-label:panelAria">
+        <div class="panel-head">
+          <div class="badge" id="status">SÃ©lectionne un fragment</div>
+          <div class="badge subtle" data-i18n="guideLabel">Guide Ferron</div>
+        </div>
+
+        <div class="panel-body">
+        <h2 class="art-title" id="artTitle">â€¦</h2>
+        <div class="section section-thumb" id="sectionThumb" hidden>
+          <div class="art-media" id="artMedia" aria-label="Vignette vitrail" data-i18n-attr="aria-label:thumbAria">
+            <img id="artMediaImg" alt="" hidden />
+          </div>
+        </div>
+
+        <details class="artwork-info-details" id="artworkInfoMenu">
+          <summary class="artwork-info-summary" data-i18n="infoMenuToggle">Explorer cette Å“uvre âœ¨</summary>
+          <div class="artwork-info-content">
+            <p class="art-meta" id="artMeta">Clique sur une Å“uvre pour commencer.</p>
+
+            <div class="section" id="sectionDesc" hidden>
+              <div class="section-title" data-i18n="sectionDescription">Description</div>
+              <div class="desc" id="artDesc"></div>
+            </div>
+
+            <div class="section" id="sectionLinks" hidden>
+              <div class="art-links" id="artLinks">
+                <a class="link-btn" id="sourceBtn" href="#" target="_blank" rel="noopener noreferrer" data-i18n="sourceBtn">Voir la fiche du musÃ©e</a>
+              </div>
+            </div>
+
+            <div class="section">
+              <div class="bot" id="botText">Le commentaire apparaÃ®tra ici.</div>
+            </div>
+
+            <div class="actions">
+              <button class="btn" data-action="intro" data-i18n="actionIntro">Intro</button>
+              <button class="btn" data-action="lumiere" data-i18n="actionLumiere">LumiÃ¨re</button>
+              <button class="btn" data-action="couleur" data-i18n="actionCouleur">Couleur</button>
+              <button class="btn" data-action="contexte" data-i18n="actionContexte">Contexte</button>
+            </div>
+          </div>
+        </details>
+
+        <details class="small-note-details">
+          <summary class="small-note-summary" data-i18n="noteToggle">Pour les parents</summary>
+          <div class="small-note" data-i18n-html="noteHtml"></div>
+        </details>
+      </aside>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "refus-global-1948",
+    "titre": "Refus global (manifeste)",
+    "annee": 1948,
+    "periode": "1948",
+    "type": "manifeste",
+    "tags": ["rupture", "modernité", "liberté"],
+    "palette": ["#f4c95d", "#c14953", "#1b2b65"],
+    "resume": "Marcelle Ferron est signataire du manifeste Refus global (1948), acte fondateur de la modernité artistique au Québec."
+  },
+  {
+    "id": "sans-titre-1955",
+    "titre": "Sans titre (période automatiste)",
+    "annee": 1955,
+    "periode": "1950s",
+    "type": "peinture",
+    "tags": ["automatisme", "gestuel", "contraste"],
+    "palette": ["#f05d5e", "#f6c95d", "#1b2b65"],
+    "resume": "Abstraction gestuelle : tension, vitesse, contrastes. L’image naît du geste plus que du sujet."
+  },
+  {
+    "id": "sans-titre-1958",
+    "titre": "Sans titre (noir et énergie)",
+    "annee": 1958,
+    "periode": "1950s",
+    "type": "peinture",
+    "tags": ["noir", "tension", "rythme"],
+    "palette": ["#1b2b65", "#c14953", "#f49e4c"],
+    "resume": "Le noir structure la composition : il n’est pas un vide, il devient l’armature du mouvement."
+  },
+  {
+    "id": "transition-1962",
+    "titre": "Composition (transition)",
+    "annee": 1962,
+    "periode": "1960s",
+    "type": "peinture",
+    "tags": ["structure", "fragment", "lumière"],
+    "palette": ["#2b65d9", "#68c4d9", "#f4d06f"],
+    "resume": "On sent la logique du vitrail arriver : segmentation, plans, et lumière comme matière."
+  },
+  {
+    "id": "noir-structurel-1965",
+    "titre": "Noir structurel",
+    "annee": 1965,
+    "periode": "1960s",
+    "type": "peinture",
+    "tags": ["plomb", "structure", "direction"],
+    "palette": ["#0f1c33", "#2e6ddb", "#f0c44b"],
+    "resume": "Le noir agit comme le plomb d’un vitrail : il découpe et tient la lumière."
+  },
+  {
+    "id": "champ-de-mars-1968",
+    "titre": "Vitraux — Métro Champ-de-Mars (Montréal)",
+    "annee": 1968,
+    "periode": "1968",
+    "type": "vitrail",
+    "tags": ["métro", "lumière", "art public"],
+    "palette": ["#55d0ff", "#2a5bd7", "#f4c95d"],
+    "resume": "Œuvre publique majeure : la lumière traverse des fragments colorés et transforme l’espace du métro."
+  },
+  {
+    "id": "vitrail-public-1972",
+    "titre": "Vitrail (art public)",
+    "annee": 1972,
+    "periode": "1970-80s",
+    "type": "vitrail",
+    "tags": ["public", "fragmentation", "vibration"],
+    "palette": ["#f4c95d", "#f05d5e", "#2d2f6f"],
+    "resume": "La composition devient architecture : l’œuvre vit avec la lumière ambiante et la circulation des gens."
+  },
+  {
+    "id": "vitrail-public-1978",
+    "titre": "Vitrail (composition lumineuse)",
+    "annee": 1978,
+    "periode": "1970-80s",
+    "type": "vitrail",
+    "tags": ["lumière", "contraste", "mosaïque"],
+    "palette": ["#38d4c1", "#1f6ce0", "#f6783a"],
+    "resume": "Mosaïque de couleurs : l’œil fait le montage, le vitrail fait la projection."
+  },
+  {
+    "id": "bleu-electrique-1980",
+    "titre": "Bleu électrique (inspiré)",
+    "annee": 1980,
+    "periode": "1970-80s",
+    "type": "peinture",
+    "tags": ["bleu", "impact", "énergie"],
+    "palette": ["#1f6ce0", "#58c0ff", "#f4d06f"],
+    "resume": "Un bleu ‘courant’ domine, réveillé par des accents chauds. Palette pensée comme choc lumineux."
+  },
+  {
+    "id": "constellation-1983",
+    "titre": "Constellation (inspiré)",
+    "annee": 1983,
+    "periode": "1970-80s",
+    "type": "peinture",
+    "tags": ["nuit", "scintillement", "espace"],
+    "palette": ["#1b2b65", "#7b48c6", "#0a0f1f"],
+    "resume": "Atmosphère nocturne : fragments lumineux dispersés, sensation cosmique, espace profond."
+  },
+  {
+    "id": "eclats-rouges-1985",
+    "titre": "Éclats rouges (inspiré)",
+    "annee": 1985,
+    "periode": "1970-80s",
+    "type": "peinture",
+    "tags": ["rouge", "percussion", "tension"],
+    "palette": ["#f05d5e", "#ff8a4f", "#1b1f3b"],
+    "resume": "Le rouge surgit comme un choc. Le noir encadre l’énergie (comme du plomb)."
+  },
+  {
+    "id": "prisme-1987",
+    "titre": "Prisme (inspiré)",
+    "annee": 1987,
+    "periode": "1970-80s",
+    "type": "peinture",
+    "tags": ["dispersion", "lumière", "spectre"],
+    "palette": ["#f4d06f", "#48d6b5", "#1f6ce0"],
+    "resume": "Le prisme découpe la lumière : métaphore parfaite du vitrail. La fragmentation devient sujet."
+  }
+]

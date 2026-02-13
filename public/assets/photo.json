@@ -1,0 +1,799 @@
+{
+  "nom": "Ferron",
+  "prenom": "Marcelle",
+  "nomOrthographeAutochtone": "",
+  "biographieCourte": "Louiseville (Québec), Canada, 1924 - Outremont (Québec), Canada, 2001",
+  "nationalites": "Canadienne",
+  "peuplesAutochtones": "",
+  "anneeNaissance": 1924,
+  "anneeDeces": 2001,
+  "lieuNaissance": "Louiseville (Québec), Canada",
+  "lieuDeces": "Outremont (Québec), Canada",
+  "genre": "Féminin",
+  "groupeArtistes": [],
+  "oeuvres": [
+    {
+      "libelleNomsArtistes": "Jean-Pierre Beaudin \u003Cem\u003Eet al.\u003C/em\u003E",
+      "titre": "Sans titre",
+      "dateProduction": "1956-1958",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-65-53/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-65-53-g-10/?format=json",
+      "elements": [
+        {
+          "libelleNomsArtistes": "Marcelle Ferron",
+          "titre": "La Ponche (tirée d’un album « Sans titre » réalisé en collaboration)",
+          "dateProduction": "1958",
+          "collectionMac": true,
+          "url": "https://macrepertoire.macm.org/oeuvre/la-ponche-sans-titre/?format=json",
+          "href": "https://macrepertoire.macm.org/api/oeuvres/a-65-53-g-10-6/?format=json"
+        }
+      ]
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "L’Odalisque",
+      "dateProduction": "1983",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/l-odalisque/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-03-31-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Les Fées se drapent",
+      "dateProduction": "1978",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/les-fees-se-drapent/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-00-60-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Hommage à la musique",
+      "dateProduction": "1969",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/hommage-a-la-musique/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-06-32-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1966",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-67-8/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-67-8-v-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1965",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-99-17/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-99-17-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1965",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-99-55/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-99-55-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1964",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-65-109/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-65-109-go-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Le Bolide",
+      "dateProduction": "vers 1964",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/le-bolide/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-00-127-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "No 16",
+      "dateProduction": "1964",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/no-16/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-01-140-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1964",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-00-93/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-00-93-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "À la peinture argentée",
+      "dateProduction": "1963",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/a-la-peinture-argentee/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-92-622-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1963",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-92-625/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-92-625-d-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1962",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-86/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-86-d-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1962",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-94/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-94-d-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1962",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-91/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-91-d-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1962",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-89/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-89-d-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Congo",
+      "dateProduction": "1962",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/congo/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-92-435-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Ghost Hills",
+      "dateProduction": "1962",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/ghost-hills/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-65-22-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Tristement en Eurydice",
+      "dateProduction": "1962",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/tristement-en-eurydice/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-99-18-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Étude no 1",
+      "dateProduction": "1961",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/etude-no-1/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-93-d-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1961",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-90/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-90-d-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1961",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-88/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-88-d-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Peinture no 1",
+      "dateProduction": "1961",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/peinture-no-1/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-80-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1961",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-79/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-79-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre no 1",
+      "dateProduction": "1961",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-no-1-71-92/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-92-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Voyage au pays de mémoire",
+      "dateProduction": "1960",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/voyage-au-pays-de-memoire/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-64-47-e-6/?format=json",
+      "elements": [
+        {
+          "libelleNomsArtistes": "Marcelle Ferron",
+          "titre": "Sans titre (tirée de l’album « Voyage au pays de mémoire », 1960)",
+          "dateProduction": "1960",
+          "collectionMac": true,
+          "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-voyage-au-pays-de-memoire-1/?format=json",
+          "href": "https://macrepertoire.macm.org/api/oeuvres/a-64-47-e-6-1/?format=json"
+        },
+        {
+          "libelleNomsArtistes": "Marcelle Ferron",
+          "titre": "Sans titre (tirée de l’album « Voyage au pays de mémoire », 1960)",
+          "dateProduction": "1960",
+          "collectionMac": true,
+          "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-voyage-au-pays-de-memoire-2/?format=json",
+          "href": "https://macrepertoire.macm.org/api/oeuvres/a-64-47-e-6-2/?format=json"
+        },
+        {
+          "libelleNomsArtistes": "Marcelle Ferron",
+          "titre": "Sans titre (tirée de l’album « Voyage au pays de mémoire », 1960)",
+          "dateProduction": "1960",
+          "collectionMac": true,
+          "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-voyage-au-pays-de-memoire-3/?format=json",
+          "href": "https://macrepertoire.macm.org/api/oeuvres/a-64-47-e-6-3/?format=json"
+        },
+        {
+          "libelleNomsArtistes": "Marcelle Ferron",
+          "titre": "Sans titre (tirée de l’album « Voyage au pays de mémoire », 1960)",
+          "dateProduction": "1960",
+          "collectionMac": true,
+          "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-voyage-au-pays-de-memoire-4/?format=json",
+          "href": "https://macrepertoire.macm.org/api/oeuvres/a-64-47-e-6-4/?format=json"
+        }
+      ]
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Chande loup",
+      "dateProduction": "1960",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/chande-loup/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-84-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1960",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-15-17/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-15-17-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1960",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-82/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-82-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1960",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-98-114/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-98-114-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1960",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-71-85/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-85-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre no 2",
+      "dateProduction": "1960",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-no-2-71-81/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-81-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Composition",
+      "dateProduction": "1955",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/composition-92-1058/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-92-1058-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Composition no 17",
+      "dateProduction": "1955",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/composition-no-17/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-71-83-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Composition en bleu",
+      "dateProduction": "1950",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/composition-en-bleu/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-87-141-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Le Poète enchanté",
+      "dateProduction": "1949",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/le-poete-enchante/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-79-15-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Cerce Nacarat",
+      "dateProduction": "1948",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/cerce-nacarat/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-79-16-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Le Champ russe",
+      "dateProduction": "1947-1948",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/le-champ-russe/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/a-97-3-p-1/?format=json"
+    },
+    {
+      "libelleNomsArtistes": "Marcelle Ferron",
+      "titre": "Sans titre",
+      "dateProduction": "1947",
+      "collectionMac": true,
+      "url": "https://macrepertoire.macm.org/oeuvre/sans-titre-02-50/?format=json",
+      "href": "https://macrepertoire.macm.org/api/oeuvres/d-02-50-p-1/?format=json"
+    }
+  ],
+  "evenements": [
+    {
+      "categorie": "Affichage – temporaire",
+      "titre": "60 œuvres, 60 dons",
+      "dates": "2024-06-01 → 2025-01-31",
+      "url": "https://macrepertoire.macm.org/evenement/60-oeuvres-60-dons/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/60-oeuvres-60-dons/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Partitions",
+      "dates": "2018-10-20 → 2019-01-20",
+      "url": "https://macrepertoire.macm.org/evenement/partitions/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/partitions/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection (itinérante)",
+      "titre": "La Question de l’abstraction",
+      "dates": "2012-04-12 → 2014-09-14",
+      "url": "https://macrepertoire.macm.org/evenement/la-question-de-l-abstraction/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/la-question-de-l-abstraction/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Bleu",
+      "dates": "2010-11-04 → 2011-03-27",
+      "url": "https://macrepertoire.macm.org/evenement/bleu/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/bleu/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Acquisitions récentes",
+      "dates": "2006-11-04 → 2007-03-25",
+      "url": "https://macrepertoire.macm.org/evenement/acquisitions-recentes/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/acquisitions-recentes/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Place à la Magie! Les années 40, 50 et 60 au Québec [volet II]",
+      "dates": "2006-03-03 → 2008-03-24",
+      "url": "https://macrepertoire.macm.org/evenement/place-a-la-magie-les-annees-40-50-et-60-au-quebec-volet-2006-03-03/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/place-a-la-magie-les-annees-40-50-et-60-au-quebec-volet-2006-03-03/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Place à la Magie! Les années 40, 50 et 60 au Québec [volet I]",
+      "dates": "2002-05-24 → 2006-04-19",
+      "url": "https://macrepertoire.macm.org/evenement/place-a-la-magie-les-annees-40-50-et-60-au-quebec-volet/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/place-a-la-magie-les-annees-40-50-et-60-au-quebec-volet/?format=json"
+    },
+    {
+      "categorie": "Rencontre",
+      "titre": "Visite exploration Marcelle Ferron",
+      "dates": "2000-06-11",
+      "url": "https://macrepertoire.macm.org/evenement/visite-exploration-marcelle-ferron/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/visite-exploration-marcelle-ferron/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Marcelle Ferron, une rétrospective",
+      "dates": "2000-06-02 → 2000-09-10",
+      "url": "https://macrepertoire.macm.org/evenement/marcelle-ferron-une-retrospective/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/marcelle-ferron-une-retrospective/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Borduas et l’épopée automatiste",
+      "dates": "1998-05-09 → 1998-11-29",
+      "url": "https://macrepertoire.macm.org/evenement/borduas-et-l-epopee-automatiste/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/borduas-et-l-epopee-automatiste/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection (itinérante)",
+      "titre": "La Collection Lavalin du Musée d’art contemporain de Montréal, Corpus I / 1939-1965 : de la figuration moderne à l’abstraction, et au-delà",
+      "dates": "1995-09-07 → 1995-10-22",
+      "url": "https://macrepertoire.macm.org/evenement/la-collection-lavalin-du-musee-d-art-contemporain-de-montreal/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/la-collection-lavalin-du-musee-d-art-contemporain-de-montreal/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "La Collection Lavalin du Musée d’art contemporain de Montréal – Le Partage d’une vision",
+      "dates": "1994-04-30 → 1994-10-23",
+      "url": "https://macrepertoire.macm.org/evenement/la-collection-lavalin-du-musee-d-art-contemporain-de-montreal-1994-04-30/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/la-collection-lavalin-du-musee-d-art-contemporain-de-montreal-1994-04-30/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "La Collection : tableau inaugural",
+      "dates": "1992-05-28 → 1994-04-03",
+      "url": "https://macrepertoire.macm.org/evenement/la-collection-tableau-inaugural/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/la-collection-tableau-inaugural/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection (itinérante)",
+      "titre": "Propos d’art contemporain : Figures d’accumulation",
+      "dates": "1989-12-10 → 1991-12-01",
+      "url": "https://macrepertoire.macm.org/evenement/propos-d-art-contemporain-figures-d-accumulation/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/propos-d-art-contemporain-figures-d-accumulation/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Une histoire de collections : Dons 1984-1989",
+      "dates": "1989-04-12 → 1989-06-04",
+      "url": "https://macrepertoire.macm.org/evenement/une-histoire-de-collections-dons-1984-1989/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/une-histoire-de-collections-dons-1984-1989/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Les vingt ans du Musée d’art contemporain : œuvres choisies de la collection",
+      "dates": "1985-03-04 → 1985-04-21",
+      "url": "https://macrepertoire.macm.org/evenement/les-vingt-ans-du-musee-d-art-contemporain-oeuvres-choisies/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/les-vingt-ans-du-musee-d-art-contemporain-oeuvres-choisies/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Les vingt ans du Musée à travers sa collection",
+      "dates": "1985-01-27 → 1985-04-21",
+      "url": "https://macrepertoire.macm.org/evenement/les-vingt-ans-du-musee-a-travers-sa-collection/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/les-vingt-ans-du-musee-a-travers-sa-collection/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection (itinérante)",
+      "titre": "La Révolution automatiste",
+      "dates": "1979 → 1981",
+      "url": "https://macrepertoire.macm.org/evenement/la-revolution-automatiste/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/la-revolution-automatiste/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Tendances actuelles au Québec",
+      "dates": "1978-11-09 → 1979-01-14",
+      "url": "https://macrepertoire.macm.org/evenement/tendances-actuelles-au-quebec/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/tendances-actuelles-au-quebec/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Tendances actuelles au Québec : la gravure et la peinture",
+      "dates": "1978-11-09 → 1978-12-10",
+      "url": "https://macrepertoire.macm.org/evenement/tendances-actuelles-au-quebec-la-gravure-et-la-peinture/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/tendances-actuelles-au-quebec-la-gravure-et-la-peinture/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Trentenaire du Refus global",
+      "dates": "1978-11-09 → 1979-01-14",
+      "url": "https://macrepertoire.macm.org/evenement/trentenaire-du-refus-global/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/trentenaire-du-refus-global/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Œuvres extraites des éditions d’art de la Collection",
+      "dates": "1978-07-13 → 1978-08-27",
+      "url": "https://macrepertoire.macm.org/evenement/oeuvres-extraites-des-editions-d-art-de-la-collection/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/oeuvres-extraites-des-editions-d-art-de-la-collection/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Petits formats de la collection",
+      "dates": "1978-05-18 → 1978-06-18",
+      "url": "https://macrepertoire.macm.org/evenement/petits-formats-de-la-collection/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/petits-formats-de-la-collection/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Tendances de l’expressionnisme abstrait",
+      "dates": "1978-05-08 → 1978-06-04",
+      "url": "https://macrepertoire.macm.org/evenement/tendances-de-l-expressionnisme-abstrait/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/tendances-de-l-expressionnisme-abstrait/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Œuvres québécoises de la Collection 1940-1960",
+      "dates": "1978-03-09 → 1978-04-09",
+      "url": "https://macrepertoire.macm.org/evenement/oeuvres-quebecoises-de-la-collection-1940-1960/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/oeuvres-quebecoises-de-la-collection-1940-1960/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection (itinérante)",
+      "titre": "De la figuration à la non-figuration dans l’art québécois",
+      "dates": "1976-09-02 → 1976-10-03",
+      "url": "https://macrepertoire.macm.org/evenement/de-la-figuration-a-la-non-figuration/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/de-la-figuration-a-la-non-figuration/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Trois générations d’art québécois 1940/1950/1960",
+      "dates": "1976-06-30 → 1976-09-01",
+      "url": "https://macrepertoire.macm.org/evenement/trois-generation-d-art-quebecois-194019501960/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/trois-generation-d-art-quebecois-194019501960/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "La Collection permanente, 1965-1975",
+      "dates": "1975-06-22 → 1975-07-20",
+      "url": "https://macrepertoire.macm.org/evenement/la-collection-permanente-1965-1975/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/la-collection-permanente-1965-1975/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Les petits formats de la collection",
+      "dates": "1974-08-09 → 1974-09-01",
+      "url": "https://macrepertoire.macm.org/evenement/les-petits-formats-de-la-collection/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/les-petits-formats-de-la-collection/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Les Arts du Québec",
+      "dates": "1974-06-20 → 1974-09-02",
+      "url": "https://macrepertoire.macm.org/evenement/les-arts-du-quebec/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/les-arts-du-quebec/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Collection Gisèle et Gérard Lortie",
+      "dates": "1972-03-02 → 1972-04-16",
+      "url": "https://macrepertoire.macm.org/evenement/collection-gisele-et-gerard-lortie/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/collection-gisele-et-gerard-lortie/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire (itinérante)",
+      "titre": "Borduas et les automatistes, Montréal 1942-1955",
+      "dates": "1971-12-02 → 1972-01-16",
+      "url": "https://macrepertoire.macm.org/evenement/borduas-et-les-automatistes-montreal-1942-1955/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/borduas-et-les-automatistes-montreal-1942-1955/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Concours artistique du Québec 1971",
+      "dates": "1971-04-15 → 1971-04-27",
+      "url": "https://macrepertoire.macm.org/evenement/concours-artistiques-du-quebec-1971/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/concours-artistiques-du-quebec-1971/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Marcelle Ferron de 1945 à 1970",
+      "dates": "1970-04-07 → 1970-05-31",
+      "url": "https://macrepertoire.macm.org/evenement/marcelle-ferron-de-1945-a-1970/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/marcelle-ferron-de-1945-a-1970/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Concours artistiques 1968",
+      "dates": "1969-02-19 → 1969-03-16",
+      "url": "https://macrepertoire.macm.org/evenement/concours-artistiques-1968/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/concours-artistiques-1968/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Collection permanente",
+      "dates": "1968-06-04 → 1968-09-01",
+      "url": "https://macrepertoire.macm.org/evenement/collection-permanente/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/collection-permanente/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Panorama II de la peinture au Québec, 1956-1966",
+      "dates": "1967-07-11 → 1967-08-20",
+      "url": "https://macrepertoire.macm.org/evenement/panorama-ii-de-la-peinture-au-quebec-1956-1966/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/panorama-ii-de-la-peinture-au-quebec-1956-1966/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Panorama I de la peinture au Québec, 1940-1955",
+      "dates": "1967-05-15 → 1967-06-25",
+      "url": "https://macrepertoire.macm.org/evenement/panorama-i-de-la-peinture-au-quebec-1940-1955/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/panorama-i-de-la-peinture-au-quebec-1940-1955/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Marcelle Ferron : verrières",
+      "dates": "1966-11-29 → 1967-01-08",
+      "url": "https://macrepertoire.macm.org/evenement/marcelle-ferron-verrieres/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/marcelle-ferron-verrieres/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Concours artistique du Québec 1966",
+      "dates": "1966-09-08 → 1966-09-25",
+      "url": "https://macrepertoire.macm.org/evenement/concours-artistiques-du-quebec-1966/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/concours-artistiques-du-quebec-1966/?format=json"
+    },
+    {
+      "categorie": "Exposition – collection",
+      "titre": "Collections du Musée",
+      "dates": "1966-01-06 → 1966-02-13",
+      "url": "https://macrepertoire.macm.org/evenement/collections-du-musee/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/collections-du-musee/?format=json"
+    },
+    {
+      "categorie": "Exposition – temporaire",
+      "titre": "Artistes de Montréal",
+      "dates": "1965-07-12 → 1965-08-22",
+      "url": "https://macrepertoire.macm.org/evenement/artistes-de-montreal-1965-07-12/?format=json",
+      "href": "https://macrepertoire.macm.org/api/evenements/artistes-de-montreal-1965-07-12/?format=json"
+    }
+  ],
+  "publications": [
+    {
+      "titre": "La Question de l’abstraction",
+      "type": "Catalogue",
+      "datePublication": "2013",
+      "url": "https://macrepertoire.macm.org/publication/la-question-de-l-abstraction-2/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/la-question-de-l-abstraction-2/?format=json"
+    },
+    {
+      "titre": "Marcelle Ferron",
+      "type": "Catalogue",
+      "datePublication": "2000",
+      "url": "https://macrepertoire.macm.org/publication/marcelle-ferron/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/marcelle-ferron/?format=json"
+    },
+    {
+      "titre": "Paul-Émile Borduas",
+      "type": "Catalogue",
+      "datePublication": "1998",
+      "url": "https://macrepertoire.macm.org/publication/paul-emile-borduas-3/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/paul-emile-borduas-3/?format=json"
+    },
+    {
+      "titre": "La Collection Lavalin du Musée d’art contemporain de Montréal : le partage d’une vision",
+      "type": "Catalogue",
+      "datePublication": "1994",
+      "url": "https://macrepertoire.macm.org/publication/la-collection-lavalin-du-musee-d-art-contemporain-de/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/la-collection-lavalin-du-musee-d-art-contemporain-de/?format=json"
+    },
+    {
+      "titre": "La Collection : Tableau inaugural",
+      "type": "Catalogue",
+      "datePublication": "1992",
+      "url": "https://macrepertoire.macm.org/publication/la-collection-tableau-inaugural/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/la-collection-tableau-inaugural/?format=json"
+    },
+    {
+      "titre": "Une histoire de collections : dons 1984-1989",
+      "type": "Catalogue",
+      "datePublication": "1989",
+      "url": "https://macrepertoire.macm.org/publication/une-histoire-de-collections-dons-1984-1989/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/une-histoire-de-collections-dons-1984-1989/?format=json"
+    },
+    {
+      "titre": "Les Vingt ans du Musée à travers sa collection",
+      "type": "Catalogue",
+      "datePublication": "1985",
+      "url": "https://macrepertoire.macm.org/publication/les-vingt-ans-du-musee-a-travers-sa-collection/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/les-vingt-ans-du-musee-a-travers-sa-collection/?format=json"
+    },
+    {
+      "titre": "La révolution automatiste",
+      "type": "Catalogue",
+      "datePublication": "1980",
+      "url": "https://macrepertoire.macm.org/publication/la-revolution-automatiste/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/la-revolution-automatiste/?format=json"
+    },
+    {
+      "titre": "Tendances actuelles au Québec",
+      "type": "Catalogue",
+      "datePublication": "1980",
+      "url": "https://macrepertoire.macm.org/publication/tendances-actuelles-au-quebec/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/tendances-actuelles-au-quebec/?format=json"
+    },
+    {
+      "titre": "De la figuration à la non-figuration dans l’art québécois",
+      "type": "Catalogue",
+      "datePublication": "1976",
+      "url": "https://macrepertoire.macm.org/publication/de-la-figuration-a-la-non-figuration-dans-l-art-quebecois/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/de-la-figuration-a-la-non-figuration-dans-l-art-quebecois/?format=json"
+    },
+    {
+      "titre": "Trois générations d’art québécois : 1940, 1950, 1960",
+      "type": "Catalogue",
+      "datePublication": "1976",
+      "url": "https://macrepertoire.macm.org/publication/trois-generations-d-art-quebecois-1940-1950/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/trois-generations-d-art-quebecois-1940-1950/?format=json"
+    },
+    {
+      "titre": "Borduas et les automatistes : Montréal 1942-1955",
+      "type": "Catalogue",
+      "datePublication": "1971",
+      "url": "https://macrepertoire.macm.org/publication/borduas-et-les-automatistes-montreal-1942-1955/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/borduas-et-les-automatistes-montreal-1942-1955/?format=json"
+    },
+    {
+      "titre": "Marcelle Ferron de 1945 à 1970",
+      "type": "Catalogue",
+      "datePublication": "1970",
+      "url": "https://macrepertoire.macm.org/publication/marcelle-ferron-de-1945-a-1970/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/marcelle-ferron-de-1945-a-1970/?format=json"
+    },
+    {
+      "titre": "Panorama de la peinture au Québec, 1940-1966",
+      "type": "Catalogue",
+      "datePublication": "1967",
+      "url": "https://macrepertoire.macm.org/publication/panorama-de-la-peinture-au-quebec-1940-1966/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/panorama-de-la-peinture-au-quebec-1940-1966/?format=json"
+    },
+    {
+      "titre": "Collections",
+      "type": "Catalogue",
+      "datePublication": "1966",
+      "url": "https://macrepertoire.macm.org/publication/collections/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/collections/?format=json"
+    },
+    {
+      "titre": "Marcelle Ferron : verrières",
+      "type": "Catalogue",
+      "datePublication": "1966",
+      "url": "https://macrepertoire.macm.org/publication/marcelle-ferron-verrieres/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/marcelle-ferron-verrieres/?format=json"
+    },
+    {
+      "titre": "Artistes de Montréal",
+      "type": "Catalogue",
+      "datePublication": "1965",
+      "url": "https://macrepertoire.macm.org/publication/artistes-de-montreal/?format=json",
+      "href": "https://macrepertoire.macm.org/api/publications/artistes-de-montreal/?format=json"
+    }
+  ],
+  "url": "https://macrepertoire.macm.org/artiste/ferron-marcelle/?format=json",
+  "href": "https://macrepertoire.macm.org/api/artistes/ferron-marcelle/?format=json"
+}
