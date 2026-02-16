@@ -104,6 +104,10 @@
           <span class="pill" id="legendPeriod">PÃ©riode : Toutes</span>
           <span class="pill" id="legendCount">Å’uvres : â€¦</span>
         </div>
+        <div class="category-row" aria-label="CatÃ©gories">
+          <span class="category-title" id="categoryTitle" data-i18n="categoryLabel">CatÃ©gories</span>
+          <div class="category-filters" id="categoryFilters"></div>
+        </div>
 
         <div class="pager" aria-label="Pagination des Å“uvres" data-i18n-attr="aria-label:pagerAria">
           <button class="pager-btn" id="prevPage" type="button" disabled data-i18n="pagerPrev">â—€ PrÃ©cÃ©dent</button>
@@ -128,6 +132,13 @@
           />
         </div>
         <div class="welcome-copy">
+          <button
+            class="welcome-tab-btn"
+            id="welcomeToggle"
+            type="button"
+            data-i18n="welcomePeekHide"
+            aria-expanded="true"
+          >Masquer Marcelle</button>
           <h3 class="welcome-title" data-i18n="welcomeTitle">Bienvenue dans l’univers de Marcelle Ferron ✨</h3>
           <p class="welcome-text" data-i18n="welcomeBody">
             Voici Marcelle Ferron 👩‍🎨
@@ -143,7 +154,7 @@
           <div class="badge subtle" data-i18n="guideLabel">Guide Ferron</div>
         </div>
 
-        <div class="panel-body">
+        <div class="panel-body" id="panelBody">
         <h2 class="art-title" id="artTitle">â€¦</h2>
         <div class="section section-thumb" id="sectionThumb" hidden>
           <div class="art-media" id="artMedia" aria-label="Vignette vitrail" data-i18n-attr="aria-label:thumbAria">
@@ -155,7 +166,6 @@
           <summary class="artwork-info-summary" data-i18n="infoMenuToggle">Explorer cette Å“uvre âœ¨</summary>
           <div class="artwork-info-content">
             <p class="art-meta" id="artMeta">Clique sur une Å“uvre pour commencer.</p>
-
             <div class="section" id="sectionDesc" hidden>
               <div class="section-title" data-i18n="sectionDescription">Description</div>
               <div class="desc" id="artDesc"></div>
@@ -187,6 +197,27 @@
       </aside>
       </div>
     </main>
+  </div>
+
+  <div class="artwork-preview-modal" id="artworkPreviewModal" hidden aria-hidden="true">
+    <div class="artwork-preview-backdrop" id="artworkPreviewBackdrop"></div>
+    <div class="artwork-preview-dialog glass" role="dialog" aria-modal="true" aria-labelledby="artworkPreviewTitle">
+      <button class="artwork-preview-close" id="artworkPreviewClose" type="button" data-i18n="previewClose">Fermer</button>
+      <h3 class="artwork-preview-title" id="artworkPreviewTitle">Œuvre</h3>
+      <div class="artwork-preview-frame" id="artworkPreviewFrame">
+        <img id="artworkPreviewImg" alt="" hidden />
+      </div>
+      <div class="artwork-preview-actions">
+        <a
+          class="link-btn"
+          id="artworkPreviewSourceBtn"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="sourceBtn"
+        >Voir la fiche du musée</a>
+      </div>
+    </div>
   </div>
 
   <script type="module" src="/src/main.ts"></script>

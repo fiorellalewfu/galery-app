@@ -88,20 +88,27 @@ const i18n: Record<
       mosaicHint: "Astuce : clique, puis lis l’histoire à droite.",
       legendPeriodPrefix: "Période",
       legendCountPrefix: "Œuvres",
+      categoryLabel: "Catégories",
+      categoryAll: "Toutes",
       pagerAria: "Pagination des œuvres",
       pagerPrev: "◀ Précédent",
       pagerNext: "Suivant ▶",
       pageInfo: ({ current, total }) => `Page ${current} / ${total}`,
       panelAria: "Panneau guide",
       statusDefault: "Sélectionne un fragment",
+      statusActive: "Œuvre active",
       guideLabel: "Guide Ferron",
       artMetaDefault: "Clique une œuvre pour commencer.",
       welcomeTitle: "Bienvenue dans l’univers de Marcelle Ferron ✨",
       welcomeBody:
         "Voici Marcelle Ferron 👩‍🎨\nC’est elle qui a imaginé ce monde de peintures, vitraux et lumières. Prêt·e à explorer ?",
+      welcomePeekShow: "Voir Marcelle",
+      welcomePeekHide: "Masquer Marcelle",
       infoMenuToggle: "Explorer cette œuvre ✨",
       sectionDescription: "Description",
       sourceBtn: "Voir la fiche du musée",
+      previewOpen: "Agrandir l’aperçu",
+      previewClose: "Fermer",
       thumbAria: "Vignette vitrail",
       botDefault: "Prêt pour une mini-aventure artistique ? ✨",
       periodFallback: "Choisis une œuvre pour commencer.",
@@ -129,6 +136,7 @@ const i18n: Record<
       defaultTitle: "Œuvre",
       selectionLabel: ({ title }) => `Sélection : ${title}`,
       pieceAria: ({ title, year, type }) => `${title} (${year}) — ${type}`,
+      pieceMysteryLabel: ({ index }) => `Fragment mystère ${index}`,
       materialsLabel: "Matériaux",
       placeLabel: "Lieu",
       keywordsLabel: "Mots-clés",
@@ -248,20 +256,27 @@ const i18n: Record<
       mosaicHint: "Tip: click, then read the story on the right.",
       legendPeriodPrefix: "Period",
       legendCountPrefix: "Works",
+      categoryLabel: "Categories",
+      categoryAll: "All",
       pagerAria: "Works pagination",
       pagerPrev: "◀ Previous",
       pagerNext: "Next ▶",
       pageInfo: ({ current, total }) => `Page ${current} / ${total}`,
       panelAria: "Guide panel",
       statusDefault: "Select a fragment",
+      statusActive: "Active artwork",
       guideLabel: "Ferron Guide",
       artMetaDefault: "Click a work to begin.",
       welcomeTitle: "Welcome to Marcelle Ferron’s universe ✨",
       welcomeBody:
         "This is Marcelle Ferron 👩‍🎨\nShe imagined this world of paintings, stained glass, and light. Ready to explore?",
+      welcomePeekShow: "Show Marcelle",
+      welcomePeekHide: "Hide Marcelle",
       infoMenuToggle: "Explore this artwork ✨",
       sectionDescription: "Description",
       sourceBtn: "View museum record",
+      previewOpen: "Expand preview",
+      previewClose: "Close",
       thumbAria: "Stained glass thumbnail",
       botDefault: "Ready for a mini art adventure? ✨",
       periodFallback: "Choose a work to start.",
@@ -289,6 +304,7 @@ const i18n: Record<
       defaultTitle: "Artwork",
       selectionLabel: ({ title }) => `Selection: ${title}`,
       pieceAria: ({ title, year, type }) => `${title} (${year}) — ${type}`,
+      pieceMysteryLabel: ({ index }) => `Mystery shard ${index}`,
       materialsLabel: "Materials",
       placeLabel: "Location",
       keywordsLabel: "Keywords",
@@ -430,10 +446,21 @@ const artDesc = qs<HTMLElement>("#artDesc");
 const sectionLinks = qs<HTMLElement>("#sectionLinks");
 const sectionThumb = qs<HTMLElement>("#sectionThumb");
 const artLinks = qs<HTMLElement>("#artLinks");
+const welcomeCard = document.querySelector<HTMLElement>(".welcome-card");
+const welcomeToggle = document.querySelector<HTMLButtonElement>("#welcomeToggle");
 const artworkInfoMenu = document.querySelector<HTMLDetailsElement>("#artworkInfoMenu");
 const sourceBtn = qs<HTMLAnchorElement>("#sourceBtn");
 const artMedia = qs<HTMLElement>("#artMedia");
 const artMediaImg = qs<HTMLImageElement>("#artMediaImg");
+const artworkPreviewModal = qs<HTMLElement>("#artworkPreviewModal");
+const artworkPreviewBackdrop = qs<HTMLElement>("#artworkPreviewBackdrop");
+const artworkPreviewClose = qs<HTMLButtonElement>("#artworkPreviewClose");
+const artworkPreviewTitle = qs<HTMLElement>("#artworkPreviewTitle");
+const artworkPreviewFrame = qs<HTMLElement>("#artworkPreviewFrame");
+const artworkPreviewImg = qs<HTMLImageElement>("#artworkPreviewImg");
+const artworkPreviewSourceBtn = qs<HTMLAnchorElement>("#artworkPreviewSourceBtn");
+const panelBody = qs<HTMLElement>("#panelBody");
+const categoryFilters = qs<HTMLDivElement>("#categoryFilters");
 const botText = qs<HTMLElement>("#botText");
 const legendPeriod = qs<HTMLElement>("#legendPeriod");
 const legendCount = qs<HTMLElement>("#legendCount");
@@ -506,7 +533,9 @@ const setHeaderLang = (lang: HeaderLang): void => {
   });
   document.documentElement.lang = lang;
   applyI18nStatic();
+  updateWelcomeToggleLabel();
   updatePeriodCard();
+  renderCategoryFilters();
   renderMosaic();
   updateSelectedDescription(selectedId);
   updateSelectedLinks(selectedId);
@@ -524,9 +553,23 @@ const setHeaderLang = (lang: HeaderLang): void => {
 let oeuvres: Oeuvre[] = [];
 let artworks: ArtworkRecord[] = [];
 let periodeActive: PeriodeFilter = "toutes";
+let categoryActive = "toutes";
 let selectedId: string | null = null;
 let pageIndex = 0;
 const SELECTED_ARTWORK_STORAGE_KEY = "mur-de-lumiere:selectedArtworkId";
+
+const updateWelcomeToggleLabel = (): void => {
+  if (!welcomeCard || !welcomeToggle) return;
+  const isCollapsed = welcomeCard.classList.contains("is-collapsed");
+  welcomeToggle.textContent = i18nValue(isCollapsed ? "welcomePeekShow" : "welcomePeekHide");
+  welcomeToggle.setAttribute("aria-expanded", isCollapsed ? "false" : "true");
+};
+
+const setWelcomeCollapsed = (collapsed: boolean): void => {
+  if (!welcomeCard) return;
+  welcomeCard.classList.toggle("is-collapsed", collapsed);
+  updateWelcomeToggleLabel();
+};
 
 const SLOTS = [
   "slot1",
@@ -590,6 +633,46 @@ const filterArtworksByPeriode = (list: ArtworkRecord[], periode: string): Artwor
   return list.filter((artwork) => artwork.info.period === periode);
 };
 
+const availableCategories = (): string[] => {
+  const categories = artworks
+    .map((artwork) => artwork.info.type.trim())
+    .filter((type) => type.length > 0);
+  return Array.from(new Set(categories)).sort((a, b) =>
+    a.localeCompare(b, currentLang === "fr" ? "fr" : "en", { sensitivity: "base" })
+  );
+};
+
+const filterArtworksByCategory = (list: ArtworkRecord[], category: string): ArtworkRecord[] => {
+  if (category === "toutes") return list;
+  return list.filter((artwork) => artwork.info.type === category);
+};
+
+const renderCategoryFilters = (): void => {
+  const categories = availableCategories();
+  if (categoryActive !== "toutes" && !categories.includes(categoryActive)) {
+    categoryActive = "toutes";
+  }
+
+  categoryFilters.innerHTML = "";
+  const options = ["toutes", ...categories];
+  options.forEach((category) => {
+    const button = document.createElement("button");
+    const isActive = category === categoryActive;
+    button.type = "button";
+    button.className = "category-chip";
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+    button.textContent = category === "toutes" ? i18nValue("categoryAll") : category;
+    button.addEventListener("click", () => {
+      categoryActive = category;
+      pageIndex = 0;
+      renderCategoryFilters();
+      renderMosaic();
+    });
+    categoryFilters.appendChild(button);
+  });
+};
+
 const readPersistedSelectedId = (): string | null => {
   const urlId = new URLSearchParams(window.location.search).get("artwork");
   if (urlId) return urlId;
@@ -622,9 +705,11 @@ const persistSelectedId = (id: string | null): void => {
 
 const resetSelectionState = (): void => {
   selectedId = null;
+  closeArtworkPreview();
   persistSelectedId(null);
   if (artworkInfoMenu) artworkInfoMenu.open = false;
   document.body.classList.remove("has-selection");
+  setWelcomeCollapsed(false);
   statusBadge.textContent = i18nValue("statusDefault");
   artTitle.textContent = "…";
   artMeta.textContent = i18nValue("artMetaDefault");
@@ -738,21 +823,31 @@ const updateSelectedLinks = (id: string | null): void => {
 
 const updateSelectedMedia = (id: string | null): void => {
   if (!id) {
+    closeArtworkPreview();
     sectionThumb.setAttribute("hidden", "true");
     artMedia.style.backgroundImage = "";
     artMediaImg.src = "";
     artMediaImg.alt = "";
     artMediaImg.hidden = true;
+    artMedia.removeAttribute("role");
+    artMedia.removeAttribute("tabindex");
+    artMedia.removeAttribute("aria-label");
+    artMedia.style.cursor = "default";
     return;
   }
 
   const artwork = findArtworkById(artworks, id);
   if (!artwork) {
+    closeArtworkPreview();
     sectionThumb.setAttribute("hidden", "true");
     artMedia.style.backgroundImage = "";
     artMediaImg.src = "";
     artMediaImg.alt = "";
     artMediaImg.hidden = true;
+    artMedia.removeAttribute("role");
+    artMedia.removeAttribute("tabindex");
+    artMedia.removeAttribute("aria-label");
+    artMedia.style.cursor = "default";
     return;
   }
 
@@ -768,7 +863,52 @@ const updateSelectedMedia = (id: string | null): void => {
     artMediaImg.hidden = true;
     artMedia.style.backgroundImage = gradientFromPalette(artwork.palette);
   }
+  artMedia.setAttribute("role", "button");
+  artMedia.setAttribute("tabindex", "0");
+  artMedia.setAttribute("aria-label", i18nValue("previewOpen"));
+  artMedia.style.cursor = "zoom-in";
   sectionThumb.removeAttribute("hidden");
+};
+
+const closeArtworkPreview = (): void => {
+  artworkPreviewModal.setAttribute("hidden", "true");
+  artworkPreviewModal.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("modal-open");
+};
+
+const openArtworkPreview = (): void => {
+  if (!selectedId) return;
+  const artwork = findArtworkById(artworks, selectedId);
+  if (!artwork) return;
+
+  artworkPreviewTitle.textContent = artwork.title;
+  if (artwork.imageSrc) {
+    artworkPreviewFrame.style.backgroundImage = "";
+    artworkPreviewImg.src = artwork.imageSrc;
+    artworkPreviewImg.alt = artwork.title;
+    artworkPreviewImg.hidden = false;
+  } else {
+    artworkPreviewImg.src = "";
+    artworkPreviewImg.alt = "";
+    artworkPreviewImg.hidden = true;
+    artworkPreviewFrame.style.backgroundImage = gradientFromPalette(artwork.palette);
+  }
+
+  if (artwork.linkUrl) {
+    artworkPreviewSourceBtn.href = artwork.linkUrl;
+    artworkPreviewSourceBtn.classList.remove("is-disabled");
+    artworkPreviewSourceBtn.removeAttribute("aria-disabled");
+    artworkPreviewSourceBtn.removeAttribute("tabindex");
+  } else {
+    artworkPreviewSourceBtn.href = "#";
+    artworkPreviewSourceBtn.classList.add("is-disabled");
+    artworkPreviewSourceBtn.setAttribute("aria-disabled", "true");
+    artworkPreviewSourceBtn.setAttribute("tabindex", "-1");
+  }
+
+  artworkPreviewModal.removeAttribute("hidden");
+  artworkPreviewModal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modal-open");
 };
 
 const normalizeStrList = (val: unknown): string[] => {
@@ -1037,7 +1177,8 @@ const syncPieceMosaicBackgrounds = (): void => {
 };
 
 const renderMosaic = (): void => {
-  const filtered = filterArtworksByPeriode(artworks, periodeActive);
+  const byPeriode = filterArtworksByPeriode(artworks, periodeActive);
+  const filtered = filterArtworksByCategory(byPeriode, categoryActive);
 
   legendPeriod.textContent = `${i18nValue("legendPeriodPrefix")} : ${periodeLabel(periodeActive)}`;
   legendCount.textContent = `${i18nValue("legendCountPrefix")} : ${filtered.length}`;
@@ -1081,7 +1222,7 @@ const renderMosaic = (): void => {
 
     const fragmentTitle = document.createElement("span");
     fragmentTitle.className = "piece-title";
-    fragmentTitle.textContent = artwork.title;
+    fragmentTitle.textContent = i18nValue("pieceMysteryLabel", { index: start + index + 1 });
     fragment.appendChild(fragmentTitle);
 
     fragment.addEventListener("click", () => void onSelect(artwork.id));
@@ -1120,7 +1261,7 @@ const callChatbot = async (action: ChatbotAction): Promise<void> => {
     return;
   }
 
-  statusBadge.textContent = i18nValue("selectionLabel", { title: data.title });
+  statusBadge.textContent = i18nValue("statusActive");
   artTitle.textContent = data.title;
   artMeta.textContent = data.meta ?? "";
   botText.textContent = data.text ?? "";
@@ -1131,10 +1272,12 @@ const onSelect = async (id: string): Promise<void> => {
   persistSelectedId(id);
   if (artworkInfoMenu) artworkInfoMenu.open = false;
   document.body.classList.add("has-selection");
+  setWelcomeCollapsed(true);
   setSelectedVisual(id);
   updateSelectedDescription(id);
   updateSelectedLinks(id);
   updateSelectedMedia(id);
+  panelBody.scrollTo({ top: 0, behavior: "smooth" });
   /* GALLERY BUTTON UPDATE */
   if (!oeuvres.some((o) => o.id === id)) {
     console.warn("[Mur de lumière] Œuvre introuvable pour id=", id);
@@ -1197,6 +1340,38 @@ sourceBtn.addEventListener("click", (event) => {
   }
 });
 
+artMedia.addEventListener("click", () => {
+  if (!selectedId) return;
+  openArtworkPreview();
+});
+
+artMedia.addEventListener("keydown", (event: KeyboardEvent) => {
+  if (!selectedId) return;
+  if (event.key !== "Enter" && event.key !== " ") return;
+  event.preventDefault();
+  openArtworkPreview();
+});
+
+artworkPreviewClose.addEventListener("click", () => {
+  closeArtworkPreview();
+});
+
+artworkPreviewBackdrop.addEventListener("click", () => {
+  closeArtworkPreview();
+});
+
+artworkPreviewSourceBtn.addEventListener("click", (event) => {
+  if (artworkPreviewSourceBtn.getAttribute("aria-disabled") === "true") {
+    event.preventDefault();
+  }
+});
+
+document.addEventListener("keydown", (event: KeyboardEvent) => {
+  if (event.key !== "Escape") return;
+  if (artworkPreviewModal.hasAttribute("hidden")) return;
+  closeArtworkPreview();
+});
+
 if (headerRoot && headerLangButtons.length) {
   headerLangButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -1207,10 +1382,63 @@ if (headerRoot && headerLangButtons.length) {
   setHeaderLang("fr");
 }
 
+if (welcomeToggle && welcomeCard) {
+  welcomeToggle.addEventListener("click", () => {
+    const isCollapsed = welcomeCard.classList.contains("is-collapsed");
+    setWelcomeCollapsed(!isCollapsed);
+  });
+  updateWelcomeToggleLabel();
+}
+
+const decodeHashId = (hash: string): string => {
+  const raw = hash.startsWith("#") ? hash.slice(1) : hash;
+  try {
+    return decodeURIComponent(raw);
+  } catch {
+    return raw;
+  }
+};
+
+const scrollToHashTarget = (hash: string, behavior: ScrollBehavior): boolean => {
+  const id = decodeHashId(hash);
+  if (!id) return false;
+  const target =
+    document.getElementById(id) ??
+    document.querySelector<HTMLElement>(`[name="${id}"]`);
+  if (!target) return false;
+  target.scrollIntoView({ behavior, block: "start" });
+  return true;
+};
+
+document.addEventListener("click", (event) => {
+  const target = event.target;
+  if (!(target instanceof Element)) return;
+  const link = target.closest<HTMLAnchorElement>('a[href^="#"]');
+  if (!link) return;
+  const href = link.getAttribute("href");
+  if (!href || href === "#") return;
+
+  const url = new URL(link.href, window.location.href);
+  const samePath = url.pathname === window.location.pathname && url.search === window.location.search;
+  if (!samePath || !url.hash) return;
+
+  if (!scrollToHashTarget(url.hash, "smooth")) return;
+  event.preventDefault();
+  if (window.location.hash !== url.hash) {
+    window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}${url.hash}`);
+  }
+});
+
+window.addEventListener("hashchange", () => {
+  if (!window.location.hash) return;
+  scrollToHashTarget(window.location.hash, "smooth");
+});
+
 void (async function init(): Promise<void> {
   await loadOeuvres();
   applyI18nStatic();
   updatePeriodCard();
+  renderCategoryFilters();
   renderMosaic();
   const persistedId = readPersistedSelectedId();
   if (persistedId && artworks.some((artwork) => artwork.id === persistedId)) {
@@ -1228,6 +1456,12 @@ void (async function init(): Promise<void> {
   pieceMosaicImage.addEventListener("load", () => {
     syncPieceMosaicBackgrounds();
   });
+
+  if (window.location.hash) {
+    requestAnimationFrame(() => {
+      scrollToHashTarget(window.location.hash, "auto");
+    });
+  }
 
   // Spotlight souris (effet "lumière")
   let rafId = 0;
